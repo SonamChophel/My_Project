@@ -1,0 +1,114 @@
+body
+{
+    background-image: url("login.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}  
+
+.logobody
+{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    height: 530px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 70px 30px;
+    border-radius: 20px;
+}
+
+.logodesign
+{
+    position: absolute;
+    top: -50px;
+    left: calc(45% - 50px);
+}
+
+h1 
+{
+    margin-top: 25px;
+    background-color: #1E90FF;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: ;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.logobody p
+{
+    margin-top: 18px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.logobody input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logobody input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.logobody input[type="submit"]
+{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #1E90FF;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.logobody a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logobody input[type="submit"]:hover
+{
+    background-color: red;
+}
+
+.para
+{
+    text-align: center;
+    height: 20px;
+}
+.logobody button
+{
+    margin: 20px 0;
+    font-weight: bold;
+    width: 100%;
+    color:white;
+    height: 40px;
+    background-color: #1E90FF;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+.logobody button:hover
+{
+    background-color: red;
+}
+
+#fp:hover
+{
+    color: red;
+}
