@@ -1,0 +1,159 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+}
+
+/*----header style -----*/
+header img
+{
+    width: 150px;
+}
+#logo
+{
+    float: left;
+}
+header h1
+{
+    color: royalblue;
+    font-family: lucida calligraphy;
+    font-size: 70px;
+    float: left;
+    margin-left: 144px;
+    text-align: center;
+    margin-right: 155px;
+    padding-top: 20px;
+}
+
+
+/*----- body style -----*/
+section
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 70%;
+    float: left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 30px;
+}
+#sec2
+{
+    border: 2px solid white;
+    padding: 100px;
+    height: auto;
+}
+#sec3
+{
+    background: url(flower.jpg);
+    background-size: cover;
+    height: 450px;
+}
+ 
+#abt
+{
+    
+}
+/* ----- slider ----- */
+.outslide
+{
+    height: 500px;
+    width: 945px;
+    overflow: hidden;
+}
+.inslide img
+{
+    width: 945px;
+    height: 500px;
+    float: left;
+}
+.inslide 
+{
+    position: relative;
+    width: 4725px;
+    animation-name: home;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes home
+{
+    0% { left: 0px; }      
+    10% { left: 0px; }
+    12% { left: -945px; }  
+    22% { left: -945px; }
+    24% { left: -1890px; } 
+    34% { left: -1890px; }
+    36% { left: -2835px; } 
+    46% { left: -2835px; }
+    48% { left: -3780px; } 
+    58% { left: -3780px; }
+    60% { left: -2835px; } 
+    70% { left: -2835px; }
+    72% { left: -1890px; }
+    82% { left: -1890px; }
+    84% { left: -945px; }
+    94% { left: -945px; }
+    96% { left: 0px; }
+    
+}
+
+
+/* ------ Footer -----*/
+
+#table2
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#cont
+{
+    font-family: "lucida calligraphy";
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 25px; 
+    color: white;
+}
+
+#p1
+{
+    color: white;
+    width: 35px;
+    float: left;
+    padding-bottom: 15px;
+}
+.p2
+{
+    color: white;
+    padding-top: 25px;
+    text-align: left;
+    text-indent: 20px;
+}
+
+#t1
+{
+    padding-left: 150px;
+}
+
+#t2
+{
+    border-left: 3px dotted white;
+    height: 50px;
+}
+
+#t3
+{
+    border-left: 3px dotted white;
+    height: 50px;
+}
