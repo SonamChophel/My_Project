@@ -1,0 +1,390 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/*................................header...........................................*/
+body{
+ font-family: 'Roboto', sans-serif;
+}
+
+  section{
+  	text-align: center;
+  }
+
+  #banner{
+    background: url(../images/bg.jpg) no-repeat top center;  
+    background-size: cover;       
+    text-align: center;
+    padding:295px 0 347px;
+    color: #fff; 
+  }
+  h1{
+    font-weight: 100;
+    font-size: 60px;
+    line-height: 70px;    
+  }
+  h2{
+    font-weight: 500;
+    font-size: 60px;  
+  }
+  form{
+    padding-top: 80px;
+  }
+  input{
+    border: 1px solid #fff;
+    outline: 0;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight:700; 
+    border-radius: 3px;
+    padding: 20px 0 20px 20px;
+    margin-right:10px;
+  }
+  input:focus{
+    border: 1px solid #ffd800;
+  }
+  button{
+   outline: 0;
+   border: 1px solid #ffd800;
+   background-color: #ffd800;
+   color: #080e17;
+   font-size: 18px;
+   font-weight:700; 
+   border-radius: 3px;
+   padding: 20px 35px;
+ }
+ button:hover{
+   border: 1px solid #ffd800;
+   background-color: transparent;
+   color: #ffd800;
+   transition:all 0.5s; 
+ }
+ #about{
+  background-color: #191b29;
+  color: #fff;
+}
+img.iphone{
+  margin-top: -50px;
+  display: block;
+  width: 100%;
+}
+h3{
+  font-size: 36px;
+  font-weight: 300;
+  text-align: left;
+}
+h3 img{
+  margin-right: 25px;
+  position: relative;
+  top: 15px;
+}
+.innerp{
+ text-align: left;
+ font-size: 16px;
+ line-height: 30px;
+ color: #9d9fbf;
+}
+#about p.innerp{
+  padding-top: 35px;
+  font-weight: 300;
+}
+#about article{
+  padding-top: 50px;
+}
+#team{
+  background-color: #ffd800;
+  padding: 136px 0;
+}
+.head{
+  font-weight: 700;
+  font-size: 35px;
+}
+#team img{
+  display: block;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+h4{
+  font-weight: 700;
+  font-size: 30px;
+  padding: 30px 0 20px;
+}
+p.newp{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.innerdivyellow{
+  background-color: #ffe347;
+  min-height: 270px;
+  text-align: left;
+  padding-top: 35px;
+}
+.innerdivwhite{min-height: 600px;text-align: left;padding-top: 35px;}
+#macbook{
+  position: relative;
+}
+#macbook img{
+  position: absolute;;
+  right: 0;
+  float: right;
+  top: 0;
+  min-height: auto;
+  width: 60%;
+}
+
+#macbook p.innerp{
+  padding-bottom: 30px;
+  padding-right: 50px;
+  color: #191b29;
+  font-weight: 300;
+}
+button.downlaod{
+  border: 1px solid #191b29;
+  background-color: #191b29;
+  color: #fff;
+}
+button.downlaod:hover{
+  border: 1px solid #191b29;
+  background-color: transparent;
+  color: #191b29;
+  transition: all 0.5s;
+}
+#work{
+  background: url(../img/banner2.jpg) no-repeat top center;  
+  background-size: cover;       
+  text-align: center;
+  padding:120px 0 100px;
+  color: #fff; 
+}
+#work img{
+  padding: 80px 0 20px;
+  display: block;
+  margin: 0 auto;
+}
+#work p.newp{
+  color: #9d9fbf;
+}
+#work button{
+  margin-top: 85px;
+}
+footer{
+  background-color: #191b29;
+  padding: 140px 0 ;
+  color: #fff;
+}
+footer p.innerp{
+  text-align: center;
+  line-height: 36px;
+}
+footer a{
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: 400;
+ color: #fff;
+}
+footer p.newp{
+  text-align: center;
+  padding-top: 100px;
+  color: #9a9ba1;
+}
+footer a:hover{
+ color: #ffd800;
+ transition: all 0.5s;
+}
+/* New */
+
+.os-animation {
+  opacity: 0;
+}
+.os-animation.animated {
+  opacity: 1;
+}
+.staggered-animation {
+  opacity: 0;
+}
+.staggered-animation.animated {
+  opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9998;
+ background: #ffe347;
+}
+.cssload-fond{
+  position:relative;
+  margin: auto;
+  top: 50%;
+}
+
+.cssload-container-general
+{
+  animation:cssload-animball_two 3.4s infinite;
+    -o-animation:cssload-animball_two 3.4s infinite;
+    -ms-animation:cssload-animball_two 3.4s infinite;
+    -webkit-animation:cssload-animball_two 3.4s infinite;
+    -moz-animation:cssload-animball_two 3.4s infinite;
+  width:105px; height:105px;
+}
+.cssload-internal
+{
+  width:105px; height:105px; position:absolute;
+}
+.cssload-ballcolor
+{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.cssload-ball_1, .cssload-ball_2, .cssload-ball_3, .cssload-ball_4
+{
+  position: absolute;
+  animation:cssload-animball_one 3.4s infinite ease;
+    -o-animation:cssload-animball_one 3.4s infinite ease;
+    -ms-animation:cssload-animball_one 3.4s infinite ease;
+    -webkit-animation:cssload-animball_one 3.4s infinite ease;
+    -moz-animation:cssload-animball_one 3.4s infinite ease;
+}
+.cssload-ball_1
+{
+  background-color:rgb(0,0,0);
+  top:0; left:0;
+}
+.cssload-ball_2
+{
+  background-color:rgb(75,77,97);
+  top:0; left:57px;
+}
+.cssload-ball_3
+{
+  background-color:rgb(255,255,255);
+  top:57px; left:0;
+}
+.cssload-ball_4
+{
+  background-color:rgb(41,59,90);
+  top:57px; left:57px;
+}
+
+
+
+
+
+@keyframes cssload-animball_one
+{
+  0%{ position: absolute;}
+  50%{top:29px; left:29px; position: absolute;opacity:0.5;}
+  100%{ position: absolute;}
+}
+
+@-o-keyframes cssload-animball_one
+{
+  0%{ position: absolute;}
+  50%{top:29px; left:29px; position: absolute;opacity:0.5;}
+  100%{ position: absolute;}
+}
+
+@-ms-keyframes cssload-animball_one
+{
+  0%{ position: absolute;}
+  50%{top:29px; left:29px; position: absolute;opacity:0.5;}
+  100%{ position: absolute;}
+}
+
+@-webkit-keyframes cssload-animball_one
+{
+  0%{ position: absolute;}
+  50%{top:29px; left:29px; position: absolute;opacity:0.5;}
+  100%{ position: absolute;}
+}
+
+@-moz-keyframes cssload-animball_one
+{
+  0%{ position: absolute;}
+  50%{top:29px; left:29px; position: absolute;opacity:0.5;}
+  100%{ position: absolute;}
+}
+
+@keyframes cssload-animball_two
+{
+  0%{transform:rotate(0deg) scale(1);}
+  50%{transform:rotate(360deg) scale(1.3);}
+  100%{transform:rotate(720deg) scale(1);}
+}
+
+@-o-keyframes cssload-animball_two
+{
+  0%{-o-transform:rotate(0deg) scale(1);}
+  50%{-o-transform:rotate(360deg) scale(1.3);}
+  100%{-o-transform:rotate(720deg) scale(1);}
+}
+
+@-ms-keyframes cssload-animball_two
+{
+  0%{-ms-transform:rotate(0deg) scale(1);}
+  50%{-ms-transform:rotate(360deg) scale(1.3);}
+  100%{-ms-transform:rotate(720deg) scale(1);}
+}
+
+@-webkit-keyframes cssload-animball_two
+{
+  0%{-webkit-transform:rotate(0deg) scale(1);}
+  50%{-webkit-transform:rotate(360deg) scale(1.3);}
+  100%{-webkit-transform:rotate(720deg) scale(1);}
+}
+
+@-moz-keyframes cssload-animball_two
+{
+  0%{-moz-transform:rotate(0deg) scale(1);}
+  50%{-moz-transform:rotate(360deg) scale(1.3);}
+  100%{-moz-transform:rotate(720deg) scale(1);}
+}

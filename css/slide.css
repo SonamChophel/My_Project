@@ -1,0 +1,45 @@
+/* ----- slider ----- */
+.outslide
+{
+    border-radius: 10px;
+    background-color: rbga("0,0,0,0.5");
+    width: 1100px;
+    overflow: hidden;
+}
+.inslide img
+{
+    width: 1100px;
+    height: 500px;
+    float: left;
+}
+.inslide
+{
+    position: relative;
+    width: 5500px;
+    animation-name: home;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes home
+{
+    0% { left: 0px; }      
+    10% { left: 0px; }
+    12% { left: -1100px; }  
+    22% { left: -1100px; }
+    24% { left: -2200px; } 
+    34% { left: -2200px; }
+    36% { left: -3300px; } 
+    46% { left: -3300px; }
+    48% { left: -4400px; } 
+    58% { left: -4400px; }
+    
+    60% { left: -3300px; } 
+    70% { left: -3300px; }
+    72% { left: -2200px; }
+    82% { left: -2200px; }
+    84% { left: -1100px; }
+    94% { left: -1100px; }
+    96% { left: 0px; }
+    
+}

@@ -1,0 +1,85 @@
+html, body , footer
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body 
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #898989;
+	font-weight: 400;
+}
+h2 {
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;
+	line-height: 34px;
+	text-align: center;
+}
+
+
+p.top{
+	color:#898989;
+	font-size:20px;
+	line-height:24px;
+	text-align:center;
+	margin:20px 0 70px;	
+}
+
+footer
+{
+    padding:10px 0 10px; background:#010101;
+}
+footer h2
+{
+    color:#fff;
+}
+
+footer p.top
+{
+    margin-bottom:35px;
+}
+
+.mesg
+{
+    max-width:740px; 
+    width:100%; 
+    display:block;
+    margin:0 auto 110px;
+}
+
+footer .mesg input
+{
+    width:78%;
+    background:#fff;
+    border:0; 
+    padding:13px;
+    outline:0; 
+    height:51px;
+}
+footer .mesg button
+{
+    width:135px; 
+    margin-left:10px; 
+    background:#fff;
+    border:0;
+    outline:0; 
+    height:51px; 
+    line-height:10px; 
+    color:#010101; 
+    font-weight:700;
+}
+
+footer .mesg button:hover{background:#fcdb00;}
+
+
+
+
+

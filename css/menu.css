@@ -1,0 +1,145 @@
+html, body, div ,menu
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+menu
+{
+	display: block;
+}
+
+body 
+{
+    font-family: 'Merriweather', serif;
+	line-height: 1;	
+}
+section
+{
+    text-align: center;
+}
+  
+  #menu{
+    padding: 70px 0;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+#mymenu
+{
+    padding: 20px 0;   
+}
+.zoom {
+    padding:  10px 10px 20px;
+    transition: transform .2s;
+    width: 320px;
+    height: 300px;
+    margin: 0px;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9*/ 
+    -webkit-transform: scale(1.1);  /*Safari 3-8 */
+    transform: scale(1.05); 
+}
+
+.restaurants{
+	background-color: white;
+    height: 1000px;
+}
+.restaurants a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.tab {
+    overflow: hidden;
+    padding-left: 0%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color:maroon;
+    float: left;
+    color:white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 20px;
+    font-weight: bold;
+    width: 25%;
+    height: 60px;
+}
+
+
+
+.tab button:hover {
+    background-color:crimson;
+    color: white;
+}
+
+.tab button.active {
+   
+   background-color:white;
+   color : black;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    padding: 40px 40px;
+
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.restaurant_list{
+    width: 100%;
+}
+
+.restaurant_list h5{
+    font-weight: bold;
+    padding-left: 20px; 
+}
+
+.restaurant_list td{
+    border-right : 1px dotted gray;
+    border-left : 1px dotted gray;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.restaurant_list hr{
+    height: 1px;
+    width: 90%;
+    background-color: orange;
+    align-self: center;
+}
+
+.restaurant_list img{
+    align-self: center;
+}
+
+.heading{
+    font-weight: bold;
+}

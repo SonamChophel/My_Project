@@ -1,0 +1,275 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	h3 {
+		font-size: 30px;
+	}
+	h3 img {
+		margin-right: 15px;
+	}
+	#about article {
+		padding-top: 20px;
+	}
+	#about{
+		padding-bottom: 30px;
+	}
+	h4 {		
+		font-size: 28px;
+	}
+	#macbook img{
+		min-height: auto;
+		width: 60%;
+	}
+	.innerdivwhite {
+		min-height: 470px;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	.logo img{
+		width: 140px;
+		height: auto;
+	}
+	.nav-collapse a{
+		font-size: 16px;
+	}
+	h1,h2{		
+		font-size: 54px;
+	}
+	#banner{
+		padding: 275px 0 275px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h3 img {
+		margin-right: 10px;
+	}
+	#about p.innerp {
+		padding-top: 22px;
+	}
+	#about{
+		padding-bottom: 50px;
+	}
+	#about article {
+		padding-top: 35px;
+	}
+	img.iphone {
+		margin-top: 80px;
+	}
+	h4 {		
+		font-size: 20px;
+	}
+	#team img{
+		width: 100%;
+	}
+	#macbook img{
+		min-height: auto;
+		width: 42%;
+	}
+	.innerdivwhite {
+		min-height: 420px;
+	}
+	#macbook p.innerp{
+		padding-right: 0px;
+	}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.logo img{
+		width: 140px;
+		height: auto;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.nav-collapse a{
+		font-size: 16px;
+	}
+	h1,h2{		
+		font-size: 54px;
+	}
+	#banner{
+		padding: 275px 0 275px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h3 img {
+		margin-right: 10px;
+	}
+	#about p.innerp {
+		padding-top: 22px;
+	}
+	#about{
+		padding-bottom: 50px;
+	}
+	#about article {
+		padding-top: 35px;
+	}
+	img.iphone {
+		margin-top: 80px;
+	}
+	h4 {		
+		font-size: 20px;
+	}
+	#team img{
+		width: 100%;
+	}
+	#macbook img{
+		min-height: auto;
+		width: 42%;
+	}
+	.innerdivwhite {
+		min-height: 420px;
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.nav-collapse a{
+		font-size: 16px;
+		padding: 0.7em 1em;
+	}
+	header {
+		padding-top: 10px;
+	}
+	form{
+		padding-top: 30px;
+	}
+	.logo {
+		padding-top: 15px;
+	}
+	input {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#banner button{
+		width: 100%;
+	}
+	img.iphone,#macbook img{
+		display: none;
+	}
+	#about article {
+		padding-top: 30px;
+	}
+	#about {
+		padding-bottom: 50px;
+	}
+	#team,#work,footer{
+		padding: 50px 0;
+	}
+	#work{
+		background-position: left center;
+	}	
+	.head{
+		font-size: 22px;
+	}
+	#team img {
+		padding-top: 30px;
+	}
+	
+	.innerdivwhite,.innerdivyellow{
+		min-height: auto;
+		padding-bottom: 35px;
+	}
+	#macbook p.innerp{
+		padding-right: 0px;
+	}
+	#work img {
+		padding: 40px 0 20px;
+	}
+	footer p.newp br:nth-child(1){
+		display: none;	
+	}
+	#work button{
+		margin-top: 45px;
+	}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	h1{
+		line-height: 55px;
+	}
+	h1,h2{		
+		font-size: 34px;	
+	}
+	
+	#banner{
+		padding: 200px 0 200px;
+	}
+	h4 {
+		padding: 20px 0 10px;
+	}
+	footer .col-xs-6{
+		padding-bottom: 25px;
+	}
+	footer p.innerp {
+		line-height: 28px;
+	}
+	footer p.newp{
+		padding-top: 25px;
+		font-size: 16px;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#banner{
+		padding: 115px 0 50px;
+	}
+	h1{
+		line-height: 35px;
+		padding-bottom: 10px;
+	}
+	h1,h2{		
+		font-size: 30px;	
+	}
+	#about article {
+		padding-top: 15px;
+	}
+	input{
+		padding: 15px 0 15px 20px;
+	}
+	button{
+		padding: 15px 35px;
+		margin: 0 auto;
+		display: block;
+	}
+	#macbook p.innerp{
+		padding-bottom: 20px;
+	}
+	h3 img {
+		margin-right: 10px;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	h4 {
+		padding: 10px 0 ;
+		font-size: 24px;
+	}
+	footer a {	
+		font-size: 15px;
+	}
+	footer .col-xs-6{
+		padding-bottom: 25px;
+	}
+	footer p.innerp {
+		line-height: 28px;
+	}
+	footer p.newp{
+		padding-top: 25px;
+		font-size: 16px;
+	}
+
+
+}
+
