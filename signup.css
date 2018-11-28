@@ -1,0 +1,84 @@
+body
+{
+    background-image:url("images/fry.jpg"); 
+    background-attachment:absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+.forms
+{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 400px;
+    height: 550px;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+h1
+{
+    margin: 0;
+    padding : 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: red;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.forms label
+{
+    padding: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+p
+{
+    font-weight: bold;
+    color: white;
+    padding-top: 5px;
+}
+
+.forms input[type="text"] , input[type="password"] , input[type="email"]
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.forms input[type="text"] , input[type="password"] , input[type="email"]
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.forms input[type="submit"]
+{
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.forms input[type="submit"]:hover
+{
+    background-color:dodgerblue;
+}
+.gender
+{
+    margin-top: 15px;
+}
